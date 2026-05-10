@@ -38,4 +38,26 @@ Expected Result
 Order should complete successfully with message
 Thank you for your order!
 
+ Q3
+ Objective
+Automate SauceDemo purchase workflow using Selenium WebDriver with JavaScript
+Test Scenario
+
+Login with `performance_glitch_user`
+Reset App State
+Filter products by `Name (Z to A)`
+Add first product to cart
+Complete checkout
+Verify product name and total price
+Verify successful order message
+Reset App State again
+Logout
+
+Run Test
+node PerformanceTest.js
+Expected Result
+Thank you for your order!
+Your order has been dispatched, and will arrive just as fast as the pony can get there!
+
+
 
