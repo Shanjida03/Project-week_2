@@ -15,3 +15,27 @@ Objective: Verify that the `locked_out_user` cannot log in and the correct error
  TEST PASSED
  Error Message Verified Successfully
 
+
+ Q2
+ SauceDemo Checkout Automation Test
+ This project automates the SauceDemo checkout process using Selenium WebDriver with JavaScript.
+
+ Scenario
+
+Login with standard_user
+Reset App State
+Add 3 products
+Checkout products
+Verify product names and total price
+Finish order
+Verify success message
+Reset App State again
+Logout
+
+Run Test
+node CheckoutTest.js
+Expected Result
+Order should complete successfully with message
+Thank you for your order!
+
+
