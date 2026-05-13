@@ -1,8 +1,8 @@
 {
-  "name": "project_2",
+  "name": "reqres-api-automation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "badRequest.test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +11,6 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "chromedriver": "^148.0.2",
-    "selenium-webdriver": "^4.43.0"
-  },
-  "devDependencies": {}
+    "axios": "^1.16.0"
+  }
 }
